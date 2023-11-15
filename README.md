@@ -1,4 +1,7 @@
 # Bubble Sort
+This repository contains how to execute a Bubble sort program in python using MPI with an Ubuntu Master & 2 Ubuntu Slave.
+## Topology
+![image](https://github.com/Tamagoyakiii/Pratama-Arjan-Rangkuti-Bubble-Sort/assets/150600551/7198f003-9804-4498-baf0-e85683ec4e37)
 ## 1. Upgrade OS
 Menggunakan command ‘sudo apt update && sudo apt upgrade’ untuk memperbarui OS pada setiap device.
 ## 2. Install Net-Tools 
