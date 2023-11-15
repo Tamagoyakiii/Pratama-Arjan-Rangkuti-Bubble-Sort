@@ -3,17 +3,21 @@ This repository contains how to execute a Bubble sort program in python using MP
 ## Topology
 ![image](https://github.com/Tamagoyakiii/Pratama-Arjan-Rangkuti-Bubble-Sort/assets/150600551/7198f003-9804-4498-baf0-e85683ec4e37)
 ## 1. Upgrade OS
-Menggunakan command ‘sudo apt update && sudo apt upgrade’ untuk memperbarui OS pada setiap device.
+Using the 'sudo apt update && sudo apt upgrade' command to update the operating system on every device.
 ## 2. Install Net-Tools 
-Melakukan penginstalan net-tools dengan menggunakan command ‘sudo apt install net-tools vim’ untuk cek IP, vim sebagai teks editor.
+Performing the installation of net-tools using the command 'sudo apt install net-tools' to check the IP address.
 ## 3. Konfigurasi File  
-Membuka file /etc/hosts menggunakan command ‘sudo nano /etc/hosts’.
+Opening the file /etc/hosts using the command 'sudo nano /etc/hosts'.
 ## 4. Konfigurasi SSH
-Melakukan konfigurasi SSH, SSH(Secure Shell) digunakan untuk otentikasi dan pertukaran data aman antara node dalam cluster MPI. Melakukan penginstallan SSH dengan command ‘sudo apt install openssh-server’.
+Configuring SSH (Secure Shell) is used for secure authentication and data exchange between nodes in an MPI cluster. Installing SSH can be done using the command 'sudo apt install openssh-server'.
 ## 5. Install NFS Client
-Konfigurasi NFS (Network File System) merupakan proses mengatur dan mengkonfigurasi sistem berkas yang memungkinkan berbagi sistem berkas antara komputer dalam jaringan.
+Configuration of NFS (Network File System) involves the process of setting up and configuring a file system that allows sharing files between computers in a network.
 ## 6. Install MPI
-MPI adalah singkatan dari "Message Passing Interface." Ini adalah standar komunikasi yang digunakan dalam pemrograman paralel, terutama dalam pemrograman terdistribusi untuk sistem berbasis kluster atau superkomputer. Melakukan instalasi MPI dengan command ‘sudo apt install openmpi-bin libopenmpidev’.
+MPI stands for "Message Passing Interface." It is a communication standard used in parallel programming, especially in distributed programming for cluster-based or supercomputer systems. Installing MPI can be done using the command 'sudo apt install openmpi-bin libopenmpi-dev'.
 ## 7. Konfigurasi Python
-Melakukan instalasi python versi 3 dengan menggunakan command ‘sudo apt install python3-pip’ dan python versi 2 dengan menggunakan command ‘sudo apt install python-pip’.
-## 8. Testing
+Installing Python version 3 using the command 'sudo apt install python3'.
+## 8. Menjalankan Bubble
+Running the edited file using the command 'mpirun -n <number of processes> -hostfile <host list> python3 <filename>.py'.
+![image](https://github.com/Tamagoyakiii/Pratama-Arjan-Rangkuti-Bubble-Sort/assets/150600551/d48e9133-b252-48d5-8392-21144655eb40)
+![image](https://github.com/Tamagoyakiii/Pratama-Arjan-Rangkuti-Bubble-Sort/assets/150600551/f4e6fff2-c707-47ee-9fd8-dc924ec7f836)
+
